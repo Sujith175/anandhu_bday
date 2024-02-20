@@ -316,7 +316,8 @@ function reveal() {
 
   var ifrm = document.createElement("iframe");
   ifrm.setAttribute("src", "image.png");
-
+  ifrm.style.width = `${500}px`;
+  ifrm.style.height = `${600}px`;
   ifrm.style.border = "none";
   document.querySelector("#video").appendChild(ifrm);
 }
